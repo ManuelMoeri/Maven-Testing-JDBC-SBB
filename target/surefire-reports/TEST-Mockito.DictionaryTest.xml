@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="Mockito.DictionaryTest" time="0.001" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.boot.library.path" value="/home/mmoeri/.jdks/openjdk-18.0.2/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/mmoeri/IdeaProjects/Maven"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/mmoeri/IdeaProjects/Maven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/mmoeri/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/223.8617.56/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/home/mmoeri/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/223.8617.56/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/home/mmoeri/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/223.8617.56/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.15.0-67-generic"/>
+    <property name="user.home" value="/home/mmoeri"/>
+    <property name="user.timezone" value="Europe/Zurich"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="mmoeri"/>
+    <property name="java.class.path" value="/home/mmoeri/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/223.8617.56/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/home/mmoeri/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/223.8617.56/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 install"/>
+    <property name="java.home" value="/home/mmoeri/.jdks/openjdk-18.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/home/mmoeri/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/223.8617.56/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+  </properties>
+  <testcase classname="Mockito.DictionaryTest" name="initializationError" time="0.001">
+    <error message="Mockito/DictionaryRepository" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Mockito/DictionaryRepository
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3329)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2403)
+	at org.junit.runners.model.TestClass.getSortedDeclaredFields(TestClass.java:77)
+	at org.junit.runners.model.TestClass.scanAnnotatedMembers(TestClass.java:70)
+	at org.junit.runners.model.TestClass.&lt;init&gt;(TestClass.java:57)
+	at org.junit.runners.ParentRunner.createTestClass(ParentRunner.java:111)
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:91)
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:74)
+	at org.mockito.internal.runners.DefaultInternalRunner$1.&lt;init&gt;(DefaultInternalRunner.java:31)
+	at org.mockito.internal.runners.DefaultInternalRunner.&lt;init&gt;(DefaultInternalRunner.java:30)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.mockito.internal.runners.util.RunnerProvider.newInstance(RunnerProvider.java:29)
+	at org.mockito.internal.runners.RunnerFactory.create(RunnerFactory.java:75)
+	at org.mockito.internal.runners.RunnerFactory.createStrict(RunnerFactory.java:40)
+	at org.mockito.junit.MockitoJUnitRunner.&lt;init&gt;(MockitoJUnitRunner.java:154)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.ClassNotFoundException: Mockito.DictionaryRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 38 more
+</error>
+  </testcase>
+</testsuite>
