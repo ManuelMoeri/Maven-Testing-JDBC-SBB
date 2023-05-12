@@ -15,18 +15,11 @@ public class GradeManagementSystem {
     public static String password = "admin";
     public static Connection connection;
 
-    static {
-        try {
-            connection = DriverManager.getConnection(url, dbUsername, password);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
     public static Scanner userInput = new Scanner(System.in);
 
     public static void whatAction() throws SQLException {
 
+        System.out.println("");
         System.out.println("What would you like to do?");
         System.out.println("");
         System.out.println("1 - Add a grade");

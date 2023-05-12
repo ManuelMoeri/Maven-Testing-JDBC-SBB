@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="mockito.DictionaryTest" time="0.077" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="mockito.DictionaryTest" time="0.082" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -60,12 +60,12 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase classname="mockito.DictionaryTest" name="searchDefinition_getDefinition_wordIsEmpty" time="0.066"/>
+  <testcase classname="mockito.DictionaryTest" name="searchDefinition_getDefinition_wordIsEmpty" time="0.072"/>
   <testcase classname="mockito.DictionaryTest" name="wordNotInDatabase_addOrUpdateWord_addWordToDatabase" time="0.003"/>
-  <testcase classname="mockito.DictionaryTest" name="searchDefinition_getDefinition_wordHasNumbers" time="0.001"/>
+  <testcase classname="mockito.DictionaryTest" name="searchDefinition_getDefinition_wordHasNumbers" time="0"/>
   <testcase classname="mockito.DictionaryTest" name="wordInDataBase_addOrUpdateWord_updateWord" time="0.003"/>
-  <testcase classname="mockito.DictionaryTest" name="wordIsEmpty_addOrUpdateWord_invalidValue" time="0.001"/>
-  <testcase classname="mockito.DictionaryTest" name="wordWithNumbers_addOrUpdateWord_invalidCharacters" time="0.001"/>
+  <testcase classname="mockito.DictionaryTest" name="wordIsEmpty_addOrUpdateWord_invalidValue" time="0.002"/>
+  <testcase classname="mockito.DictionaryTest" name="wordWithNumbers_addOrUpdateWord_invalidCharacters" time="0"/>
   <testcase classname="mockito.DictionaryTest" name="searchDefinition_getDefinition_returnDefinition" time="0.001"/>
   <testcase classname="mockito.DictionaryTest" name="searchDefinition_getDefinition_wordNotFound" time="0.001"/>
 </testsuite>
